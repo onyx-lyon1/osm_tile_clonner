@@ -9,11 +9,11 @@ def deg2num(lat_deg, lon_deg, zoom):
     ytile = int((1.0 - math.asinh(math.tan(lat_rad)) / math.pi) / 2.0 * n)
     return xtile, ytile
 
-min_zoom = 0
-min_lat = 45.77943
-min_lon = 4.85877
-max_lat = 45.78880
-max_lon = 4.88829
+min_zoom = 14
+min_lat = 45.774737
+min_lon = 4.854259
+max_lat = 45.789342
+max_lon = 4.889987
 max_zoom = 19
 
 # create HTTP user agent
